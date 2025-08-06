@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo{
+    max-width: 40px;
+    height: auto;
+    padding-top: 8px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.sectionOne{
+    background-color: rgba(236, 7, 7, 0.788);
+    color: black;
+    padding: 0px 48px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+li{
+    font-size: 18px;
+}
+
+.websiteInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.libertadores{
+    display: flex;
+    justify-content: end;
+}

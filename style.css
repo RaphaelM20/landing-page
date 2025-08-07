@@ -1,6 +1,6 @@
-* { 
+/** { 
     margin: 0;
-}
+}*/
 
 body {
     display: flex;
@@ -174,4 +174,48 @@ button {
 .zicoPhoto {
     max-width: 70px;
     height: auto;
+}
+
+/*SECTION FOUR*/
+
+.sectionFour {
+    background-color: white;
+    padding: 0px 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainContentFour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(236, 7, 7, 0.788);
+    padding: 24px;
+    margin: 48px;
+    border-radius: 10px;
+    gap: 96px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+}
+
+.memberButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*SECTION FIVE*/
+.sectionFive {
+    background-color: rgba(236, 7, 7, 0.788);
+    color: black;
+    padding: 0px 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
 }

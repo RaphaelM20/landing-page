@@ -1,13 +1,20 @@
+* { 
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/*SECTION ONE*/
+
 .sectionOne {
     background-color: rgba(236, 7, 7, 0.788);
     color: black;
     padding: 0px 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -34,7 +41,7 @@ li {
     font-size: 18px;
 }
 
-h1 {
+.headerOne {
     font-weight: 900;
     font-size: 36px;
 }
@@ -90,4 +97,81 @@ button:hover {
 
 button {
     align-self: flex-start;
+}
+
+/*SECTION TWO*/
+
+.sectionTwo {
+    background-color: white;
+    color: black;
+    padding: 0px 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerTwo {
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.mainContentTwo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+}
+
+.trophyItem{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    text-align: center;
+    gap: 8px;
+}
+
+.borderBox {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+
+/* SECTION THREE */
+
+.sectionThree {
+    background-color: #E5E7EB;
+    padding: 0px 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainContentThree {
+    padding: 24px;
+    margin: 24px;
+}
+
+.inspiringQuote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteCredit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: black;
+    font-weight: 700;
+    gap: 6px;
+}
+
+.zicoPhoto {
+    max-width: 70px;
+    height: auto;
 }
